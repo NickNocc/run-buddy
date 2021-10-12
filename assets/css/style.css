@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     /* applies style to the body*/
     font-family:  Helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
-
+/* Header start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -48,7 +49,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-
+/* Footer start */
 footer {
     background: #fce138;
     width: 100%;
@@ -76,25 +77,39 @@ section {
     padding: 60px;
     text-align: center;
 }
-
+/* Hero Start */
 .hero {
     background-image: url("../images/flipped-hero-image.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
 }
 
 .hero-form {
     color: #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 600px;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
     text-align: left;
+    width: 40%;
+    margin: 3.5%;
 }
 
 h3 {
@@ -132,9 +147,17 @@ h3 {
     padding: 10px 20px;
     font-size: 16px;
 }
-
+/* Intro Start */
 .intro {
     text-align: center;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 .section-title {
@@ -154,14 +177,6 @@ h3 {
 .secondary-border {
     border-color: #39a6b2;
   }
-
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-}
 
 .steps{
     text-align: center;
