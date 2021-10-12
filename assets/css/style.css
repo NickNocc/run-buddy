@@ -277,8 +277,11 @@ h3 {
     font-size: 17px;
 }
 
+.contact {
+    background-color: #024e76;
+}
+
 .contact-info {
-    background: #024e76;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -286,17 +289,15 @@ h3 {
 
 .contact-info > * {
     flex: 1;
-    margin 15px
+    margin: 15px;
 }
 
-.contact-info h2 {
+.contact h2 {
     color:#fce138 ;
 }
 
 .contact-info iframe {
     height: 400px;
-    display: inline-block;
-    margin: auto;
 }
 
 .contact-info h3 {
