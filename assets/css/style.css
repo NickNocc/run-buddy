@@ -13,14 +13,17 @@ header {
     padding: 20px 35px;
     background-color: #39a6b2;
     flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    align-self: center;
 }
 
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
-}
+  }
 
 header a {
     color: #fce138;
@@ -32,13 +35,17 @@ header nav {
 }
 
 header nav ul li {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
@@ -265,10 +272,5 @@ h3 {
     text-align: left;
     margin: 30px 0 0 60px;
     color:white;
-}
-
-.flex-container {
-    display: flex;
-    justify-content:space-between;
 }
 
