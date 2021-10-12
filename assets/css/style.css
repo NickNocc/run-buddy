@@ -268,3 +268,7 @@ h3 {
     color:white;
 }
 
+.flex-container {
+    position: relative;
+    float: right;
+}

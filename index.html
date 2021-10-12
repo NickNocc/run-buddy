@@ -1,45 +1,53 @@
 <!DOCTYPE html>
+<!-- Head -->
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <meta charset="UTF-8" />
     <title>Run Buddy</title>
   </head>
+  <!-- Body Start -->
   <body>
+    <!-- Header Start -->
     <header>
-      <h1>
-        <a href="/">RUN BUDDY</a>
-      </h1>
-      <!-- Navigation Bar -->
-      <nav>
-        <ul>
-          <li>
-            <a href="#what-we-do">What We Do</a>
-          </li>
-          <li>
-            <a href="#what-you-do">What You Do</a>
-          </li>
-          <li>
-            <a href="#your-trainers">Your Trainers</a>
-          </li>
-          <li>
-            <a href="#reach-out">Reach Out</a> 
-           </li>
-          </li>
-        </ul>
+      <div class="flex-container">
+        <h1>
+          <a href="/">RUN BUDDY</a>
+        </h1>
+        <!-- Navigation Bar -->
+        <nav>
+          <ul>
+            <li>
+              <a href="#what-we-do">What We Do</a>
+            </li>
+            <li>
+              <a href="#what-you-do">What You Do</a>
+            </li>
+            <li>
+              <a href="#your-trainers">Your Trainers</a>
+            </li>
+            <li>
+              <a href="#reach-out">Reach Out</a> 
+            </li>
+            </li>
+          </ul>
       </nav>
+      </div>
     </header>
-
+    <!-- Hero Start -->
     <section class="hero">
+      <!-- CTA Start -->
       <div class="hero-cta">
         <h2>Start Building Habits.</h2>
         <p>
           seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
         </p>
       </div>
+      <!-- Hero Form Start -->
       <div class="hero-form">
         <h3>Get Started Today</h3>
         <p>Fill out this form and one of our trainers will schedule a consult</p>
+        <!-- Input Form Start -->
         <form>
           <!-- name -->
           <label for="name">Enter full name:</label>
@@ -47,9 +55,10 @@
           <!-- email -->
           <label for="email">Enter email address:</label>
           <input class="form-input" type="email" placeholder="Email Address" name="email" id="email" />          <!-- phone -->
+          <!-- phone -->
           <label for="Phone"></label>Enter a telephone number:</label>
           <input class="form-input" type="tel" placeholder="Phone Number" name="Phone" id="Phone" />
-
+          <!-- Radio Start -->
           <p>
             Have you worked out with a trainer before? <br/>
             <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -57,14 +66,17 @@
             <input type="radio" name="trainer-confirm" id="trainer-no" />
             <label for="trainer-no">No</label>
           </p>
+
           <p>
             <div>
+              <!-- Age Check -->
               <label for="checkbox">
                 I acknowledge that I am at least 18 years of age.
               </label>
               <input type="checkbox" name="age-confirm" id="checkbox" />
             </div>
           </p>
+          <!-- Submit Button 1 -->
           <button type="submit">
             <div>
             Get running!
@@ -73,25 +85,23 @@
         </form>
       </div>
     </section>
-
+    <!-- What we do Start -->
     <section id="what-we-do">
       <div>
        <h2 class="section-title primary-border">What We Do</h2>
         <p>
           butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
          </p>
-    </div>
+      </div>
     </section>
-
+    <!-- What you do Start -->
     <section id="what-you-do" class="steps">
       <h2 class="section-title secondary-border">What You Do</h2>
-      
       <div>
         <img src="./assets/images/step-1.svg" alt=""/>
         <h3><span>Step 1: Fill Out the Form Above.</span></h3>
         <p>You're already here, so why not?</p>
-        
-      </div>
+        </div>
 
       <div>
         <img src="./assets/images/step-2.svg"  />
@@ -111,9 +121,11 @@
         <p>Bi-weekly checkins with your trainer will keep you focused</p>
       </div>
     </section>
-
+    <!-- Trainers section -->
     <section id="your-trainers">
+
       <h2 class="section-title primary-border">Meet The Trainers</h2>
+      <!-- Trainer 1 -->
       <article class="trainer">
         <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
         <div class="trainer-bio text-left">
@@ -125,6 +137,7 @@
           </p>
         </div>
       </article>
+      <!-- Trainer 2 -->
       <article class="trainer">
         <div class="trainer-bio text-right">
         <h3>Joanna Gill</h3>
@@ -136,6 +149,7 @@
         </div>
         <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
       </article>
+      <!-- Trainer 3 -->
       <article class="trainer">
         <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
         <div class="trainer-bio text-left">
@@ -148,14 +162,14 @@
         </div>
       </article>
     </section>
-
+    <!-- Reach out Start -->
     <section  id="reach-out" class="contact-info">
       <h2 class="section-title secondary-border">Reach Out</h2> <br/>
       <div class="contact-info">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.807934769331!2d-118.28045418397522!3d33.817269237521735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd35748dee2bc9%3A0xed06e67beb6b775f!2s22857%20Baywood%20Dr%2C%20Carson%2C%20CA%2090745!5e0!3m2!1sen!2sus!4v1633799729257!5m2!1sen!2sus">
         </iframe>
       </div>
-
+      <!-- Contact Form Start -->
       <div class="contact-form">
         <h3>Contact Us</h3>
         <form>
@@ -168,7 +182,7 @@
            <button type="submit">Submit</button>
           </form>
       </div>
-
+      <!-- Address/Contact Start -->
       <div>
         <h3> Run Buddy</h3> 
 
@@ -187,7 +201,7 @@
         </div>
       </div>
     </section>
-
+    <!-- Footer Start -->
     <footer>
       <h2>❤️ Made with love by Run Buddy.</h2>
       <div>
@@ -196,5 +210,5 @@
       </div>
     </footer>
 
-          </body>
-        </html>
+   </body>
+</html>
